@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jaffar Berri — Administrateur Systèmes & Réseaux</title>
-  <meta name="description" content="Jaffar Berri — Administrateur Systèmes & Réseaux | IT Infrastructure & Sécurité. CV, compétences, projets et contact." />
+  <meta name="description" content="Jaffar Berri — Administrateur Systèmes & Réseaux | Infrastructure IT, Réseaux, Sécurité. Expériences Biogroup AURA, DCS Easyware. Disponible Suisse romande." />
   <meta name="color-scheme" content="dark" />
 
   <style>
@@ -22,7 +22,6 @@
       --radius:18px;
       --max:1100px;
     }
-
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -36,7 +35,6 @@
       line-height:1.55;
       letter-spacing:.2px;
     }
-
     a{color:inherit; text-decoration:none}
     .wrap{max-width:var(--max); margin:0 auto; padding:24px}
     .nav{
@@ -51,11 +49,7 @@
       padding:14px 24px;
       display:flex; align-items:center; justify-content:space-between; gap:16px;
     }
-    .brand{
-      display:flex; align-items:center; gap:10px;
-      font-weight:700;
-      letter-spacing:.3px;
-    }
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.3px;}
     .dot{
       width:10px; height:10px; border-radius:999px;
       background: linear-gradient(135deg, var(--accent), var(--accent2));
@@ -83,12 +77,7 @@
     }
 
     .hero{padding:56px 0 24px}
-    .hero-grid{
-      display:grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap:22px;
-      align-items:stretch;
-    }
+    .hero-grid{display:grid; grid-template-columns: 1.2fr .8fr; gap:22px; align-items:stretch;}
     .card{
       border:1px solid var(--line);
       background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
@@ -98,14 +87,10 @@
     .hero-main{padding:34px}
     .kicker{color:var(--muted); font-weight:600; font-size:13px; letter-spacing:.6px; text-transform:uppercase}
     h1{margin:10px 0 8px; font-size:42px; line-height:1.1}
-    .title{
-      margin:0 0 16px;
-      color: var(--text);
-      font-size:18px;
-      font-weight:650;
-    }
-    .lead{color:var(--muted); margin:0 0 22px; max-width:62ch}
+    .title{margin:0 0 16px; color: var(--text); font-size:18px; font-weight:650;}
+    .lead{color:var(--muted); margin:0 0 22px; max-width:70ch}
     .hero-actions{display:flex; flex-wrap:wrap; gap:10px}
+
     .mini{
       padding:22px;
       background: linear-gradient(180deg, rgba(18,22,33,.85), rgba(13,16,24,.75));
@@ -128,34 +113,22 @@
     }
     .section h2{margin:0; font-size:22px}
     .section p{margin:6px 0 0; color:var(--muted)}
-    .grid3{
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap:14px;
-      margin-top:14px;
-    }
+    .grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin-top:14px;}
     .skill{padding:18px}
     .skill h3{margin:0 0 8px; font-size:16px}
     .pillrow{display:flex; flex-wrap:wrap; gap:8px}
     .pill{
-      font-size:12.5px;
-      color:var(--muted);
+      font-size:12.5px; color:var(--muted);
       border:1px solid var(--line);
       background: rgba(255,255,255,.03);
-      padding:6px 10px;
-      border-radius:999px;
+      padding:6px 10px; border-radius:999px;
     }
 
-    .grid2{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:14px;
-      margin-top:14px;
-    }
+    .grid2{display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin-top:14px;}
     .exp, .proj{padding:20px}
-    .exp .role{display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
-    .exp .role b{font-size:16px}
-    .exp .role span{color:var(--muted); font-size:13px}
+    .role{display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap}
+    .role b{font-size:16px}
+    .role span{color:var(--muted); font-size:13px}
     ul{margin:10px 0 0 18px; color:var(--muted)}
     li{margin:6px 0}
 
@@ -177,18 +150,7 @@
       font-size:13px;
       font-weight:600;
     }
-    .kbd{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size:12px;
-      padding:2px 6px;
-      border:1px solid var(--line);
-      border-bottom-color: rgba(255,255,255,.18);
-      border-radius:8px;
-      background: rgba(0,0,0,.25);
-      color: var(--muted);
-    }
 
-    /* Responsive */
     @media (max-width: 980px){
       .hero-grid{grid-template-columns:1fr}
       h1{font-size:36px}
@@ -214,36 +176,38 @@
         <a href="#contact">Contact</a>
       </div>
       <div class="cta">
-        <a class="btn" href="#contact" title="Me contacter">Contact</a>
-        <!-- Remplace le lien ci-dessous par ton PDF CV quand tu l'auras -->
-        <a class="btn primary" href="cv-jaffar-berri.pdf" target="_blank" rel="noopener">Télécharger CV</a>
+        <a class="btn" href="#contact">Contact</a>
+        <!-- Mets ton PDF dans le repo au même niveau que index.html -->
+        <a class="btn primary" href="cv-jaffar-berri.pdf" target="_blank" rel="noopener">Télécharger CV (PDF)</a>
       </div>
     </div>
   </div>
 
   <main class="wrap">
+    <!-- HERO -->
     <section class="hero" id="top">
       <div class="hero-grid">
         <div class="card hero-main">
-          <div class="kicker">IT Infrastructure • Réseaux • Sécurité</div>
+          <div class="kicker">Infrastructure IT • Réseaux • Sécurité • Automatisation</div>
           <h1>Jaffar Berri</h1>
           <p class="title">Administrateur Systèmes & Réseaux</p>
           <p class="lead">
-            Spécialisé en infrastructures IT, réseaux et sécurité, avec une forte orientation automatisation et
-            exploitation d’environnements critiques. Ouvert aux opportunités en Suisse romande.
+            Administrateur IT orienté exploitation et fiabilité, intervenant sur des environnements multi-sites et exigeants.
+            Spécialisé en systèmes, réseaux et sécurité, avec une forte approche d’automatisation et de standardisation.
+            Ouvert aux opportunités en Suisse romande.
           </p>
 
           <div class="hero-actions">
-            <!-- Mets ici tes vrais liens -->
+            <!-- Remplace par ton vrai LinkedIn -->
             <a class="btn primary" href="https://www.linkedin.com/in/jaffar-berri-908326b7/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn" href="#projets">Voir mes projets</a>
+            <a class="btn" href="#experience">Voir l’expérience</a>
             <a class="btn" href="mailto:contact@jaffar-berri.ch">contact@jaffar-berri.ch</a>
           </div>
 
           <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
             <span class="badge">Disponible • Suisse romande</span>
-            <span class="badge">Français / Anglais</span>
-            <span class="badge"><span class="kbd">PowerShell</span> <span class="kbd">Python</span></span>
+            <span class="badge">Français (natif) • Anglais (bon niveau)</span>
+            <span class="badge">PowerShell • Linux • AD • FortiGate • MPLS</span>
           </div>
         </div>
 
@@ -251,54 +215,54 @@
           <h3>En bref</h3>
           <div class="facts">
             <div class="fact">
-              <b>Spécialités</b>
-              <span>Infra • Réseau • Sécurité • Automatisation</span>
+              <b>Poste ciblé</b>
+              <span>Administrateur Systèmes & Réseaux</span>
+            </div>
+            <div class="fact">
+              <b>Points forts</b>
+              <span>Exploitation, sécurité, automatisation, documentation</span>
             </div>
             <div class="fact">
               <b>Environnements</b>
-              <span>Windows Server • Linux • Virtualisation</span>
+              <span>Windows Server • Linux • VMware/Hyper-V</span>
             </div>
             <div class="fact">
-              <b>Sécurité</b>
-              <span>NAC • Firewall • VPN • Certificats</span>
-            </div>
-            <div class="fact">
-              <b>Approche</b>
-              <span>Fiabilité, documentation, amélioration continue</span>
+              <b>Réseau</b>
+              <span>VLAN • Switching • Firewall • VPN • MPLS</span>
             </div>
           </div>
 
           <div style="margin-top:14px;">
-            <a class="btn" href="#competences" style="width:100%;">Voir mes compétences</a>
+            <a class="btn" href="#competences" style="width:100%;">Voir les compétences</a>
           </div>
         </aside>
       </div>
     </section>
 
+    <!-- PROFIL -->
     <section class="section" id="profil">
       <div class="section-head">
         <div>
           <h2>Profil</h2>
-          <p>
-            Administrateur IT avec une expérience solide en systèmes, réseaux et sécurité, orienté opérationnel et qualité de service.
-          </p>
+          <p>Approche suisse : clair, factuel, orienté résultats.</p>
         </div>
       </div>
 
       <div class="card" style="padding:20px;">
-        <p style="margin:0;color:var(--muted); max-width:90ch;">
-          J’interviens sur des environnements multi-sites et exigeants, en combinant rigueur, sens du service et automatisation
-          afin de fiabiliser les infrastructures et d’optimiser les opérations IT. J’apprécie les contextes où la sécurité,
-          la disponibilité et la clarté des processus sont prioritaires.
+        <p style="margin:0;color:var(--muted); max-width:95ch;">
+          Je sécurise et maintiens des infrastructures IT (systèmes, réseaux et services) en environnement multi-sites,
+          avec une priorité sur la disponibilité, la performance et la qualité de service.
+          J’automatise les tâches récurrentes (PowerShell / scripts) et je standardise les configurations pour réduire le risque opérationnel.
         </p>
       </div>
     </section>
 
+    <!-- COMPETENCES -->
     <section class="section" id="competences">
       <div class="section-head">
         <div>
           <h2>Compétences</h2>
-          <p>Lecture rapide, orientée recruteur : technologies et domaines clés.</p>
+          <p>Sélection alignée avec ton CV et ton poste cible.</p>
         </div>
       </div>
 
@@ -308,108 +272,139 @@
           <div class="pillrow">
             <span class="pill">Windows Server</span>
             <span class="pill">Active Directory</span>
+            <span class="pill">DNS / DHCP</span>
             <span class="pill">GPO</span>
-            <span class="pill">Linux (RHEL/CentOS/Debian)</span>
-            <span class="pill">VMware / Hyper-V</span>
+            <span class="pill">Linux (Ubuntu / Debian / Rocky / Alma)</span>
+            <span class="pill">VMware</span>
+            <span class="pill">Hyper-V</span>
           </div>
         </div>
 
         <div class="card skill">
           <h3>🌐 Réseaux & Sécurité</h3>
           <div class="pillrow">
-            <span class="pill">VLAN / Switching</span>
+            <span class="pill">Switching</span>
+            <span class="pill">VLAN</span>
             <span class="pill">Routage</span>
-            <span class="pill">NAC (ClearPass)</span>
             <span class="pill">FortiGate</span>
             <span class="pill">VPN</span>
-            <span class="pill">Certificats / PKI</span>
+            <span class="pill">MPLS</span>
+            <span class="pill">Sécurité réseau</span>
           </div>
         </div>
 
         <div class="card skill">
-          <h3>⚙️ Automatisation & Outils</h3>
+          <h3>⚙️ Outils & Exploitation</h3>
           <div class="pillrow">
             <span class="pill">PowerShell</span>
-            <span class="pill">Python</span>
-            <span class="pill">WSUS</span>
+            <span class="pill">Automatisation</span>
             <span class="pill">GLPI / Asset</span>
-            <span class="pill">Monitoring</span>
+            <span class="pill">Supervision</span>
+            <span class="pill">Sauvegardes</span>
+            <span class="pill">Stockage</span>
             <span class="pill">Documentation</span>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
     <section class="section" id="experience">
       <div class="section-head">
         <div>
           <h2>Expérience</h2>
-          <p>À personnaliser : ajoute les entreprises, dates, et 3–5 missions par poste.</p>
+          <p>Chronologie basée sur les informations que tu m’as données (Biogroup AURA / DCS Ecosys).</p>
         </div>
       </div>
 
       <div class="grid2">
         <div class="card exp">
           <div class="role">
-            <b>Administrateur IT Systèmes & Réseaux</b>
-            <span>Secteur multi-sites / critique</span>
+            <b>Biogroup AURA — Responsable des systèmes d’information</b>
+            <span>2022 — Aujourd’hui</span>
           </div>
           <ul>
-            <li>Administration et sécurisation des infrastructures IT (Windows/Linux).</li>
-            <li>Gestion réseau : VLAN, politiques d’accès, segmentation et durcissement.</li>
-            <li>Automatisation des tâches récurrentes via PowerShell / scripts.</li>
-            <li>Support avancé, gestion d’incidents et amélioration continue.</li>
-            <li>Documentation claire et standardisation des configurations.</li>
+            <li>Administration et maintien des infrastructures IT (systèmes et services).</li>
+            <li>Déploiement et maintenance d’infrastructures réseau ; gestion MPLS.</li>
+            <li>Suivi de projets de transformation et amélioration continue.</li>
+            <li>Administration de la virtualisation et optimisation du stockage.</li>
+            <li>Coordination d’une équipe IT (10 personnes) et pilotage opérationnel.</li>
           </ul>
         </div>
 
         <div class="card exp">
           <div class="role">
-            <b>Support / Exploitation (N2/N3)</b>
-            <span>Postes, salles, périphériques</span>
+            <b>Biogroup AURA — Responsable support & infrastructures</b>
+            <span>2018 — 2022</span>
           </div>
           <ul>
-            <li>Diagnostic et résolution d’incidents matériels/logiciels.</li>
-            <li>Onboarding/offboarding et gestion des assets.</li>
-            <li>Support environnement VIP et situations critiques sous pression.</li>
-            <li>Respect des processus et exigences sécurité.</li>
+            <li>Gestion des infrastructures réseau & système en environnement multi-sites.</li>
+            <li>Administration Active Directory, VPN et services associés.</li>
+            <li>Gestion de la flotte (≈ 1200 postes) et support utilisateurs.</li>
+            <li>Mise en place et ouverture de 43 sites (déploiement, standardisation).</li>
+            <li>Déploiement de nouvelles solutions et accompagnement des équipes.</li>
+          </ul>
+        </div>
+
+        <div class="card exp">
+          <div class="role">
+            <b>DCS Easyware — Technicien informatique</b>
+            <span>2018</span>
+          </div>
+          <ul>
+            <li>Déploiement de solutions IT et support utilisateurs.</li>
+            <li>Gestion de la sécurité, sauvegardes et assistance de proximité.</li>
+          </ul>
+        </div>
+
+        <div class="card exp">
+          <div class="role">
+            <b>DCS Ecosys — Technicien de maintenance informatique</b>
+            <span>2016 — 2018</span>
+          </div>
+          <ul>
+            <li>Maintenance postes de travail et déploiement.</li>
+            <li>Infrastructures réseau : interventions et mise en service.</li>
+            <li>Assistance technique et résolution d’incidents.</li>
           </ul>
         </div>
       </div>
     </section>
 
+    <!-- PROJETS -->
     <section class="section" id="projets">
       <div class="section-head">
         <div>
           <h2>Projets & réalisations</h2>
-          <p>Ce qui te différencie : “problème → solution → résultat”.</p>
+          <p>Ce qui te différencie : automatisation, fiabilité, standardisation.</p>
         </div>
       </div>
 
       <div class="grid2">
         <div class="card proj">
-          <div class="role"><b>Automatisation IT</b><span>PowerShell / Python</span></div>
+          <div class="role"><b>Automatisation & standardisation</b><span>PowerShell / scripts</span></div>
           <ul>
-            <li>Scripts pour tâches AD, certificats, inventaire, maintenance.</li>
-            <li>Réduction des erreurs manuelles et gain de temps opérationnel.</li>
+            <li>Automatisation de tâches récurrentes (exploitation, maintenance, opérations IT).</li>
+            <li>Standardisation des configurations pour réduire le risque et accélérer les déploiements.</li>
           </ul>
         </div>
 
         <div class="card proj">
-          <div class="role"><b>Sécurité & réseau</b><span>NAC • Firewall • VPN</span></div>
+          <div class="role"><b>Multi-sites & déploiements</b><span>Réseau / systèmes</span></div>
           <ul>
-            <li>Segmentation réseau et contrôle d’accès via NAC.</li>
-            <li>Renforcement des règles firewall, accès distants et certificats.</li>
+            <li>Déploiement et mise en place de sites (jusqu’à 43) avec procédures et accompagnement.</li>
+            <li>Optimisation de la qualité de service : disponibilité, performance, support.</li>
           </ul>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section" id="contact">
       <div class="section-head">
         <div>
           <h2>Contact</h2>
-          <p>Simple et direct (ce que les recruteurs apprécient).</p>
+          <p>Simple, direct, efficace.</p>
         </div>
       </div>
 
@@ -421,12 +416,11 @@
           </div>
           <div style="display:flex; gap:10px; flex-wrap:wrap;">
             <a class="btn primary" href="mailto:contact@jaffar-berri.ch">Envoyer un email</a>
-            <a class="btn" href="https://www.linkedin.com/in/jaffar-berri-908326b7/" target="_blank" rel="noopener">Ouvrir LinkedIn</a>
+            <a class="btn" href="https://www.linkedin.com/in/jaffar-berri-908326b7/" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
-
         <div style="margin-top:14px; color:var(--muted); font-size:13px;">
-          Astuce : mets ton lien <b>jaffar-berri.ch</b> dans ton CV, ta signature mail et ton LinkedIn.
+          Ajoute <b>jaffar-berri.ch</b> dans ton CV (PDF), ta signature mail et ton LinkedIn.
         </div>
       </div>
     </section>
